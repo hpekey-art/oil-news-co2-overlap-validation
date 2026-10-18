@@ -1,0 +1,36 @@
+STATUS: POST-INTERRUPTION RECONSTRUCTION FROM PUBLIC GITHUB METADATA
+IMPORTANT: THIS IS NOT THE ORIGINAL RUNTIME RECEIPT FILE.
+
+Repository:
+https://github.com/hpekey-art/oil-news-co2-overlap-validation
+
+Public pre-execution release:
+https://github.com/hpekey-art/oil-news-co2-overlap-validation/releases/tag/v1.0-prevalidation
+
+GitHub release ID: 416439183
+Tag: v1.0-prevalidation
+Release name: Pre-execution validation lock — 4.20
+Release created_at (UTC): 2026-10-18T12:15:31Z
+Release published_at (UTC): 2026-10-18T12:33:55Z
+Release target commit: 9911ec16fa57c9e836cae3aca100c3dcbdaa22df
+
+Frozen script SHA256:
+68dc1dd0aa25be50cf2386876e4c3b313593a95cfe1e4de2e4b8ffe31fd3ac48
+
+Frozen manifest SHA256:
+4693eb9c128aa75130aad62f93c47d40474e66047595a7f3a5bd46eb47766e7c
+
+Public GitHub API record used for reconstruction:
+https://api.github.com/repos/hpekey-art/oil-news-co2-overlap-validation/releases/tags/v1.0-prevalidation
+
+Reconstruction generated_at (UTC): 2026-10-18T15:39:59Z
+
+PROVENANCE NOTE
+The supplied pre-execution archive did not contain the original
+EXTERNAL_TIMESTAMP_RECEIPT.txt used at runtime, and no SHA256 for that original
+receipt was recorded. The frozen script required a non-empty receipt to exist,
+but it did not record or print its contents or hash. Consequently, the original
+receipt bytes cannot be cryptographically reconstructed from the available
+materials. This document records the independently verifiable public GitHub
+timestamp after the interruption and must never be described as the original
+pre-execution runtime receipt.
