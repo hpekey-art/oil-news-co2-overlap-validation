@@ -1,0 +1,83 @@
+{
+  "status": "PASS_8_OF_8",
+  "critical": 4.2,
+  "alpha": 0.00625,
+  "acceptance": "every scenario exact one-sided Bonferroni-adjusted Clopper-Pearson lower bound >=0.95",
+  "method": "prospectively locked validation; deterministic segmented continuation following disclosed runtime interruption",
+  "original_release": "https://github.com/hpekey-art/oil-news-co2-overlap-validation/releases/tag/v1.0-prevalidation",
+  "continuation_preexecution_commit": "5920835decbc1a80196bbd6eb226743cdba621ab",
+  "A_B": "original observed results retained unchanged",
+  "C_to_G": "completed under original fixed child RNG streams",
+  "H": "first attempted process interrupted before result; completed by deterministic restart from repetition 1 under original spawn key (7,), without changing seed or algorithm",
+  "original_runtime_receipt": "not recovered; reconstructed receipt is post-interruption descriptive only",
+  "original_AB_log_sha256": "50db1cf8e3e81644d85562e70a4b9214fc3862957aaa402a074cfb834dae0eec",
+  "local_original_results_artifact_sha256": "b3eede91810cfc651f3a0d157c44725c18d37a2bb68ff4934343e948a6a33d05",
+  "local_results_csv_sha256": "9f690e3b31d26efd608d15263b661efbe415f4828fe86ea33cb5c1c16c67e80b",
+  "local_full_execution_zip_sha256": "388193057f8cce4a7b3f6e47f31d4f7756227213ca25e37cdc5cdf116d15a93c",
+  "results": [
+    {
+      "index": 0,
+      "scenario": "A_overlap_iid",
+      "covered": 49207,
+      "reps": 50000,
+      "lower_bound": 0.9826902220928115,
+      "pass": true
+    },
+    {
+      "index": 1,
+      "scenario": "B_overlap_ar03",
+      "covered": 48910,
+      "reps": 50000,
+      "lower_bound": 0.9765152475995728,
+      "pass": true
+    },
+    {
+      "index": 2,
+      "scenario": "C_overlap_ar06",
+      "covered": 48289,
+      "reps": 50000,
+      "lower_bound": 0.9636970477787878,
+      "pass": true
+    },
+    {
+      "index": 3,
+      "scenario": "D_overlap_t5_ar03",
+      "covered": 49039,
+      "reps": 50000,
+      "lower_bound": 0.9791925064789946,
+      "pass": true
+    },
+    {
+      "index": 4,
+      "scenario": "E_overlap_common_ar04",
+      "covered": 48825,
+      "reps": 50000,
+      "lower_bound": 0.9747544959754062,
+      "pass": true
+    },
+    {
+      "index": 5,
+      "scenario": "F_overlap_ar075_common",
+      "covered": 47667,
+      "reps": 50000,
+      "lower_bound": 0.9509330423016993,
+      "pass": true
+    },
+    {
+      "index": 6,
+      "scenario": "G_overlap_hetero_ar04",
+      "covered": 48688,
+      "reps": 50000,
+      "lower_bound": 0.9719213683733585,
+      "pass": true
+    },
+    {
+      "index": 7,
+      "scenario": "H_overlap_MA2_ar03",
+      "covered": 48516,
+      "reps": 50000,
+      "lower_bound": 0.9683716451621421,
+      "pass": true
+    }
+  ]
+}
