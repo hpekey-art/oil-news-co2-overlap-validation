@@ -1,0 +1,18 @@
+PRE-EXECUTION HASH CORRECTION, superseding continuation/CONTINUATION_SHA256_SEAL.txt for actual executable sources.
+
+The earlier seal listed the locally packaged aggregator (c337...), whereas the GitHub-committed executable aggregator has an operationally equivalent import-cleanup and SHA256:
+7ccb562246d3a966587bd2d4a7aecee3087b61959a6e0ea66a93302ac8bdbf2b  aggregate_fixed.py
+
+GitHub-committed wrapper SHA256 (same as local execution copy):
+23d0f639df3962d0d0a1d485a8d09b67c3158513b6467ee6533e40d0830c9429  run_continuation.py
+
+Frozen original script and manifest, byte-identical to preexecution release:
+68dc1dd0aa25be50cf2386876e4c3b313593a95cfe1e4de2e4b8ffe31fd3ac48  run_untouched_validation.py
+4693eb9c128aa75130aad62f93c47d40474e66047595a7f3a5bd46eb47766e7c  PREEXECUTION_MANIFEST.json
+
+Recovered original A/B log has been verified byte-for-byte locally:
+50db1cf8e3e81644d85562e70a4b9214fc3862957aaa402a074cfb834dae0eec
+
+Reconstructed receipt is NOT original. SHA256 2acce6cb6becfe991be4188fd4a5a100cc1d1cf3474ea2717d81ae0e457d417e refers to the supplied ORIGINAL local reconstructed copy; GitHub text reproduction is not claimed byte-identical.
+
+IMPORTANT: This correction was timestamped BEFORE any C-H simulation execution. No RNG draws for C-H have yet been generated. The fixed statistical protocol remains unchanged.
