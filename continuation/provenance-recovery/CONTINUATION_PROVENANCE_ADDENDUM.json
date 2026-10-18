@@ -1,0 +1,30 @@
+{
+  "status": "PROVENANCE_PARTIALLY_RECOVERED_VALIDATION_PENDING",
+  "original_release": "https://github.com/hpekey-art/oil-news-co2-overlap-validation/releases/tag/v1.0-prevalidation",
+  "original_commit": "9911ec16fa57c9e836cae3aca100c3dcbdaa22df",
+  "original_execution_log": {
+    "status": "RECOVERED_ORIGINAL_BYTES_SHA256_VERIFIED",
+    "sha256": "50db1cf8e3e81644d85562e70a4b9214fc3862957aaa402a074cfb834dae0eec",
+    "A": [
+      49207,
+      50000
+    ],
+    "B": [
+      48910,
+      50000
+    ]
+  },
+  "original_local_timestamp_receipt": {
+    "status": "NOT_RECOVERED",
+    "hash_recorded": false,
+    "cryptographic_reconstruction_possible": false
+  },
+  "reconstructed_receipt": {
+    "status": "POST_INTERRUPTION_EXPLANATORY_DOCUMENT_NOT_ORIGINAL",
+    "sha256": "2acce6cb6becfe991be4188fd4a5a100cc1d1cf3474ea2717d81ae0e457d417e"
+  },
+  "external_time_authority": "PUBLIC_GITHUB_RELEASE_RECORD",
+  "decision": "A_DETERMINISTIC_CONTINUATION_CONDITIONAL",
+  "C_H_execution": "NOT_STARTED",
+  "final_pass_fail": "PENDING"
+}
