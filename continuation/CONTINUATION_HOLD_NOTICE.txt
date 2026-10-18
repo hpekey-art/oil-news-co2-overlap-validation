@@ -1,0 +1,20 @@
+CONTINUATION PROVENANCE HOLD — 2026-10-18
+
+Ultra decision: A. Deterministic segmented continuation acceptable, conditional upon public timestamp of complete continuation evidence BEFORE C–H execution.
+
+Original locked release: https://github.com/hpekey-art/oil-news-co2-overlap-validation/releases/tag/v1.0-prevalidation
+Original commit: 9911ec16fa57c9e836cae3aca100c3dcbdaa22df
+Original script SHA256: 68dc1dd0aa25be50cf2386876e4c3b313593a95cfe1e4de2e4b8ffe31fd3ac48
+Original manifest SHA256: 4693eb9c128aa75130aad62f93c47d40474e66047595a7f3a5bd46eb47766e7c
+Original design matrix SHA256: f52415ba27864754882008cc80c535528174f971e48597ac97b838c46f73821c
+
+Observed and retained (not untouched): A=49207/50000, B=48910/50000.
+Incomplete: C,D,E,F,G,H. Mandatory 8/8 coverage-rule decision remains PENDING.
+Threshold=4.20. Master seed=202610180359. RNG child indices C–H=2–7, all from SeedSequence(master_seed).spawn(8). 50000 draws for each scenario. PASS iff the Bonferroni one-sided exact-binomial lower bound >=0.95 for EVERY scenario.
+
+Unresolved provenance prerequisites:
+1. ACTUAL interrupted-run log is absent from accessible files. JSON asserts SHA256=50db1cf8e3e81644d85562e70a4b9214fc3862957aaa402a074cfb834dae0eec, but this claim cannot yet be verified against the log bytes.
+2. ORIGINAL external timestamp receipt is absent from accessible files; original release exists, but receipt of the original execution was not found.
+3. Continuation wrapper, fixed aggregator, precise diff, hashes and runtime details must all be publicly timestamped before execution.
+
+NO C–H SIMULATIONS AUTHORIZED OR EXECUTED at this stage. No inference PASS claim. Missing records MUST NOT be fabricated.
