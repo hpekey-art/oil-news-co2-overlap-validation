@@ -1,0 +1,5 @@
+Original A-B execution log byte-for-byte recovered and verified against interruption JSON. SHA256: 50db1cf8e3e81644d85562e70a4b9214fc3862957aaa402a074cfb834dae0eec
+
+Original runtime EXTERNAL_TIMESTAMP_RECEIPT.txt bytes not preserved. No original receipt hash was recorded, so cryptographic reconstruction is impossible. The later explanatory reconstruction is not the original runtime receipt. The public GitHub pre-execution release, not the reconstructed local receipt, is the authoritative external timestamp.
+
+No C-H continuation has been run; validation remains PENDING.
