@@ -1,0 +1,13 @@
+Operational wrapper uses the unchanged frozen run_untouched_validation.py prelude to obtain X, draw(), scenario definitions, and validated SHA-256 checks. Only simulation loop is replaced with one --scenario-index 2..7; all streams selected from SeedSequence(202610180359).spawn(8), child index unchanged. Original frozen source not edited.
+The wrapper writes one output per scenario with open(...,"x"), refusing overwrite or a discretionary rerun.
+Aggregator uses original already observed A/B counts and C-H outputs, recomputes exact beta.ppf(0.00625,count,n-count+1) for every scenario, PASS iff all lower bounds >=0.95.
+Commands:
+python run_continuation.py --scenario-index 2
+python run_continuation.py --scenario-index 3
+python run_continuation.py --scenario-index 4
+python run_continuation.py --scenario-index 5
+python run_continuation.py --scenario-index 6
+python run_continuation.py --scenario-index 7
+python aggregate_fixed.py
+Original runtime receipt bytes and hash unavailable; reconstructed document post-interruption, not original.
+GitHub commit timestamps for continuation source and manifest precede continuation execution.
