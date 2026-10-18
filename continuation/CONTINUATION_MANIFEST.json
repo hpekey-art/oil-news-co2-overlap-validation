@@ -1,0 +1,42 @@
+{
+  "status": "SEALED_BEFORE_C_H_EXECUTION",
+  "ultra_decision": "A_DETERMINISTIC_CONTINUATION_ACCEPTABLE",
+  "original_release": "https://github.com/hpekey-art/oil-news-co2-overlap-validation/releases/tag/v1.0-prevalidation",
+  "original_commit": "9911ec16fa57c9e836cae3aca100c3dcbdaa22df",
+  "original_script_sha256": "68dc1dd0aa25be50cf2386876e4c3b313593a95cfe1e4de2e4b8ffe31fd3ac48",
+  "original_manifest_sha256": "4693eb9c128aa75130aad62f93c47d40474e66047595a7f3a5bd46eb47766e7c",
+  "original_design_sha256": "f52415ba27864754882008cc80c535528174f971e48597ac97b838c46f73821c",
+  "original_log_sha256_verified": "50db1cf8e3e81644d85562e70a4b9214fc3862957aaa402a074cfb834dae0eec",
+  "reconstructed_receipt_status": "POST_INTERRUPTION_EXPLANATORY_NOT_ORIGINAL",
+  "original_runtime_receipt": "NOT_RECOVERED_NO_ORIGINAL_HASH",
+  "authoritative_external_timestamp": "ORIGINAL_PUBLIC_GITHUB_RELEASE",
+  "original_AB_observed": [
+    {
+      "scenario": "A_overlap_iid",
+      "index": 0,
+      "covered": 49207,
+      "n": 50000
+    },
+    {
+      "scenario": "B_overlap_ar03",
+      "index": 1,
+      "covered": 48910,
+      "n": 50000
+    }
+  ],
+  "remaining_indices": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "master_seed": 202610180359,
+  "n_per_scenario": 50000,
+  "critical_value": 4.2,
+  "acceptance": "Each of 8 one-sided Clopper-Pearson lower limits with alpha=0.00625 must be >=0.95",
+  "fail_policy": "Any single failure -> FAIL. No selection, threshold, seed, scenario or repetition modifications.",
+  "execution_type": "SEGMENTED_DETERMINISTIC_CONTINUATION",
+  "outcome_coefficients_accessed": false
+}
