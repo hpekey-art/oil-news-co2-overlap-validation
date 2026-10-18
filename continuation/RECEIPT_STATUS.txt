@@ -1,0 +1,7 @@
+ORIGINAL RUNTIME RECEIPT: NOT RECOVERED. No SHA256 of original receipt was recorded.
+RECONSTRUCTED RECEIPT: POST-INTERRUPTION DOCUMENT ONLY; NOT ORIGINAL.
+AUTHORITATIVE EXTERNAL PREEXECUTION TIMESTAMP: PUBLIC GITHUB RELEASE
+https://github.com/hpekey-art/oil-news-co2-overlap-validation/releases/tag/v1.0-prevalidation
+ORIGINAL INTERRUPTED LOG: byte-for-byte recovered, SHA256 50db1cf8e3e81644d85562e70a4b9214fc3862957aaa402a074cfb834dae0eec.
+A and B: already observed, retained, no reselection.
+No C-H draws generated before this continuation code was committed.
